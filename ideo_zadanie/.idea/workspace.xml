@@ -10,23 +10,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            <state relative-caret-position="575">
+              <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
-                <marker date="1513017109157" expanded="true" signature="338:361" ph="SELECT * FRO... node" />
-                <marker date="1513017109157" expanded="true" signature="338:369" ph="SELECT NodeN... node" />
-                <marker date="1513017109157" expanded="true" signature="338:384" ph="SELECT NodeI... node" />
-                <marker date="1513017109157" expanded="true" signature="476:513" ph="SELECT level... tree" />
-                <marker date="1513017109157" expanded="true" signature="476:514" ph="SELECT level... tree" />
-                <marker date="1513017109157" expanded="true" signature="476:515" ph="SELECT Level... tree" />
-                <marker date="1513017109157" expanded="true" signature="476:518" ph="SELECT level... tree" />
-                <marker date="1513017109157" expanded="true" signature="810:887" ph="INSERT INTO tree... " />
-                <marker date="1513017109157" expanded="true" signature="1090:1173" ph="INSERT INTO node... " />
+                <marker date="1513061232811" expanded="true" signature="112:135" ph="SELECT * FRO... node" />
+                <marker date="1513061232811" expanded="true" signature="112:143" ph="SELECT NodeN... node" />
+                <marker date="1513061232811" expanded="true" signature="112:158" ph="SELECT NodeI... node" />
+                <marker date="1513061232811" expanded="true" signature="338:375" ph="SELECT level... tree" />
+                <marker date="1513061232811" expanded="true" signature="338:376" ph="SELECT level... tree" />
+                <marker date="1513061232811" expanded="true" signature="338:377" ph="SELECT Level... tree" />
+                <marker date="1513061232811" expanded="true" signature="338:379" ph="SELECT level... tree" />
+                <marker date="1513061232811" expanded="true" signature="788:865" ph="INSERT INTO tree... " />
+                <marker date="1513061232811" expanded="true" signature="1173:1256" ph="INSERT INTO node... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/connection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -36,6 +46,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/connection.php" />
         <option value="$PROJECT_DIR$/test.php" />
       </list>
     </option>
@@ -68,9 +79,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ideo_zadanie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ideo_zadanie" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -111,11 +132,12 @@
       <option name="presentableId" value="Default" />
       <updated>1513009632637</updated>
       <workItem from="1513009633821" duration="5199000" />
+      <workItem from="1513060608625" duration="777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5199000" />
+    <option name="totallyTimeSpent" value="5976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -123,22 +145,22 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -155,18 +177,44 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1513017109157" expanded="true" signature="338:361" ph="SELECT * FRO... node" />
-            <marker date="1513017109157" expanded="true" signature="338:369" ph="SELECT NodeN... node" />
-            <marker date="1513017109157" expanded="true" signature="338:384" ph="SELECT NodeI... node" />
-            <marker date="1513017109157" expanded="true" signature="476:513" ph="SELECT level... tree" />
-            <marker date="1513017109157" expanded="true" signature="476:514" ph="SELECT level... tree" />
-            <marker date="1513017109157" expanded="true" signature="476:515" ph="SELECT Level... tree" />
-            <marker date="1513017109157" expanded="true" signature="476:518" ph="SELECT level... tree" />
-            <marker date="1513017109157" expanded="true" signature="810:887" ph="INSERT INTO tree... " />
-            <marker date="1513017109157" expanded="true" signature="1090:1173" ph="INSERT INTO node... " />
+            <marker date="1513061232811" expanded="true" signature="112:135" ph="SELECT * FRO... node" />
+            <marker date="1513061232811" expanded="true" signature="112:143" ph="SELECT NodeN... node" />
+            <marker date="1513061232811" expanded="true" signature="112:158" ph="SELECT NodeI... node" />
+            <marker date="1513061232811" expanded="true" signature="338:375" ph="SELECT level... tree" />
+            <marker date="1513061232811" expanded="true" signature="338:376" ph="SELECT level... tree" />
+            <marker date="1513061232811" expanded="true" signature="338:377" ph="SELECT Level... tree" />
+            <marker date="1513061232811" expanded="true" signature="338:379" ph="SELECT level... tree" />
+            <marker date="1513061232811" expanded="true" signature="788:865" ph="INSERT INTO tree... " />
+            <marker date="1513061232811" expanded="true" signature="1173:1256" ph="INSERT INTO node... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <marker date="1513061232811" expanded="true" signature="112:135" ph="SELECT * FRO... node" />
+            <marker date="1513061232811" expanded="true" signature="112:143" ph="SELECT NodeN... node" />
+            <marker date="1513061232811" expanded="true" signature="112:158" ph="SELECT NodeI... node" />
+            <marker date="1513061232811" expanded="true" signature="338:375" ph="SELECT level... tree" />
+            <marker date="1513061232811" expanded="true" signature="338:376" ph="SELECT level... tree" />
+            <marker date="1513061232811" expanded="true" signature="338:377" ph="SELECT Level... tree" />
+            <marker date="1513061232811" expanded="true" signature="338:379" ph="SELECT level... tree" />
+            <marker date="1513061232811" expanded="true" signature="788:865" ph="INSERT INTO tree... " />
+            <marker date="1513061232811" expanded="true" signature="1173:1256" ph="INSERT INTO node... " />
           </folding>
         </state>
       </provider>

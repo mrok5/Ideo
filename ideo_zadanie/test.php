@@ -1,27 +1,24 @@
 <?php
-
-
-$servername = "localhost";
-$username = "root";
-$password = "";
-
+require('connection.php');
 
 try {
-    $conn = new PDO("mysql:host=$servername;dbname=test", $username, $password);
-    // set the PDO error mode to exception
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    //echo "Connected successfully";
 
+    function selectNodeId($conn)
+    {
+        $stmt = $conn->prepare("SELECT NodeId FROM node WHERE NodeName='Tatry'");
+        $stmt->execute();
 
-    $stmt = $conn->prepare("SELECT NodeId FROM node WHERE NodeName='Tatry'");
-    $stmt->execute();
+        return $stmt->fetch()[0];
+    }
+    $parent_id = selectNodeId($conn);
 
-    $parent_id = $stmt->fetch()[0];
-
-    $stmt = $conn->prepare("SELECT Level FROM tree WHERE NodeId = 2" );
-    $stmt->execute();
-
-    $parent_level = $stmt->fetch()[0];
+    function selectLevel($conn)
+    {
+        $stmt = $conn->prepare("SELECT Level FROM tree WHERE NodeId = 2");
+        $stmt->execute();
+        return $stmt->fetch()[0];
+    }
+    $parent_level =  selectLevel($conn);
 
     echo "p_id:";
     echo ($parent_id);
@@ -34,28 +31,30 @@ try {
     echo " c_level: ";
     echo ($current_level);
 
-    $stmt1 = $conn->prepare("INSERT INTO tree (NodeId, ParentId,Level) VALUES (:nodeId, :parentId, :level)");
-    $stmt1->bindParam(':nodeId', $test);
-    $stmt1->bindParam(':parentId', $parent_id);
-    $stmt1->bindParam(':level', $current_level);
-
+    function insertTree($conn,$test,$parent_id,$current_level)
+    {
+        $stmt = $conn->prepare("INSERT INTO tree (NodeId, ParentId,Level) VALUES (:nodeId, :parentId, :level)");
+        $stmt->bindParam(':nodeId', $test);
+        $stmt->bindParam(':parentId', $parent_id);
+        $stmt->bindParam(':level', $current_level);
+        $stmt->execute();
+    }
     $test2 = "Tatry polskie";
 
-    $stmt2 = $conn->prepare("INSERT INTO node (NodeId, ParentId,NodeName) VALUES (:nodeId, :parentId, :nodeName)");
-    $stmt2->bindParam(':nodeId', $test);
-    $stmt2->bindParam(':parentId', $parent_id);
-    $stmt2->bindParam(':nodeName', $test2 );
-
-    $stmt1->execute();
-    $stmt2->execute();
+    function insertNode($conn,$test,$parent_id,$test2)
+    {
+        $stmt2 = $conn->prepare("INSERT INTO node (NodeId, ParentId,NodeName) VALUES (:nodeId, :parentId, :nodeName)");
+        $stmt2->bindParam(':nodeId', $test);
+        $stmt2->bindParam(':parentId', $parent_id);
+        $stmt2->bindParam(':nodeName', $test2);
+        $stmt2->execute();
+    }
 
 }
 catch(PDOException $e)
 {
-    echo "Connection failed: " . $e->getMessage();
+    echo "error: " . $e->getMessage();
 }
 
-
-$conn = null;
 
 

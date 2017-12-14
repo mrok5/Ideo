@@ -15,13 +15,56 @@
 <h3 align="center">Mountains</h3>
 <table border="1" align="center">
     <tr>
-        <td> <input type="button" id="display" value="Display All Data" /> </td>
+        <td><input type="button" id="display" value="Display All Data"/></td>
     </tr>
 </table>
 <ul id="root">
 
 </ul>
-    </li>
+</li>
 </ul>
+
+<div id="mainform">
+    <h2>Submit Form Using AJAX and jQuery</h2> <!-- Required div Starts Here -->
+    <div id="form">
+        <h3>Fill Your Information !</h3>
+        <div>
+            <label>Name :</label>
+            <input id="name" type="text">
+            <label>ParentId :</label>
+            <input id="parent_id" type="number">
+            <input id="submit" type="button" value="Submit">
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $("#submit").click(function(){
+            var name = $("#name").val();
+            var parent_id = $("#parent_id").val();
+// Returns successful data submission message when the entered information is stored in database.
+            var dataString = 'name='+ name + '&parent_id='+ parent_id;
+            if(name==''||parent_id=='')
+            {
+                alert("Please Fill All Fields");
+            }
+            else
+            {
+// AJAX Code To Submit Form.
+                $.ajax({
+                    type: "POST",
+                    url: "insert.php",
+                    data: dataString,
+                    cache: false,
+                    success: function(result){
+                        alert(result);
+                    }
+                });
+            }
+            return false;
+        });
+    });
+</script>
 </body>
 </html>

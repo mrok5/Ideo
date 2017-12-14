@@ -32,7 +32,6 @@ function deleteNode()
 
 function selectData($conn, $query, $x)
 {
-
     $stmt = $conn->prepare($query);
     $stmt->execute();
     $result = $stmt->fetchAll();

@@ -34,15 +34,15 @@
       <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="155">
+              <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
               <folding>
-                <marker date="1513245592219" expanded="true" signature="573:598" ph="SELECT NodeI... node" />
-                <marker date="1513245592219" expanded="true" signature="573:614" ph="SELECT NodeN... node" />
-                <marker date="1513245592219" expanded="true" signature="634:656" ph="SELECT Level... tree" />
-                <marker date="1513245592219" expanded="true" signature="676:699" ph="SELECT NodeI... node" />
-                <marker date="1513245592219" expanded="true" signature="676:715" ph="SELECT NodeI... node" />
-                <marker date="1513245592219" expanded="true" signature="735:760" ph="SELECT Paren... node" />
+                <marker date="1513273013546" expanded="true" signature="572:597" ph="SELECT NodeI... node" />
+                <marker date="1513273013546" expanded="true" signature="572:613" ph="SELECT NodeN... node" />
+                <marker date="1513273013546" expanded="true" signature="633:655" ph="SELECT Level... tree" />
+                <marker date="1513273013546" expanded="true" signature="675:698" ph="SELECT NodeI... node" />
+                <marker date="1513273013546" expanded="true" signature="675:714" ph="SELECT NodeI... node" />
+                <marker date="1513273013546" expanded="true" signature="734:759" ph="SELECT Paren... node" />
               </folding>
             </state>
           </provider>
@@ -58,24 +58,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
-              <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+              <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insert.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="insert.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/insert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="180">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <marker date="1513270983512" expanded="true" signature="384:461" ph="INSERT INTO tree... " />
-                <marker date="1513270983512" expanded="true" signature="719:802" ph="INSERT INTO node... " />
+                <marker date="1513273769522" expanded="true" signature="108:185" ph="INSERT INTO tree... " />
+                <marker date="1513273769522" expanded="true" signature="195:278" ph="INSERT INTO node... " />
+                <marker date="1513273769522" expanded="true" signature="288:325" ph="SELECT Level... tree" />
+                <marker date="1513273769522" expanded="true" signature="288:326" ph="SELECT Level... tree" />
+                <marker date="1513273769522" expanded="true" signature="345:368" ph="SELECT MAX(N... node" />
+                <marker date="1513273769522" expanded="true" signature="345:389" ph="SELECT NodeI... node" />
               </folding>
             </state>
           </provider>
@@ -97,12 +101,12 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/test3.php" />
         <option value="$PROJECT_DIR$/connection.php" />
-        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/test2.php" />
         <option value="$PROJECT_DIR$/insertNode.php" />
         <option value="$PROJECT_DIR$/script.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/insert.php" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -113,7 +117,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
@@ -169,20 +173,23 @@
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ideo_zadanie/index.html" />
     <configuration name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ideo_zadanie/index.php" />
+    <configuration name="insert.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ideo_zadanie/insert.php" />
     <configuration name="test2.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ideo_zadanie/test2.php" />
     <configuration name="test.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ideo_zadanie/test.php" />
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test.php" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.test2.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.insert.php" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test2.php" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.test.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.insert.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.test2.php" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.test.php" />
       </list>
     </recent_temporary>
   </component>
@@ -206,15 +213,15 @@
       <workItem from="1513228392555" duration="149000" />
       <workItem from="1513228597484" duration="1005000" />
       <workItem from="1513243973947" duration="4749000" />
-      <workItem from="1513249272776" duration="2913000" />
+      <workItem from="1513249272776" duration="6048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31765000" />
+    <option name="totallyTimeSpent" value="34900000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -272,12 +279,12 @@
         <state relative-caret-position="200">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <marker date="1513245592219" expanded="true" signature="573:598" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="573:614" ph="SELECT NodeN... node" />
-            <marker date="1513245592219" expanded="true" signature="634:656" ph="SELECT Level... tree" />
-            <marker date="1513245592219" expanded="true" signature="676:699" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="676:715" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="735:760" ph="SELECT Paren... node" />
+            <marker date="1513273013546" expanded="true" signature="572:597" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="572:613" ph="SELECT NodeN... node" />
+            <marker date="1513273013546" expanded="true" signature="633:655" ph="SELECT Level... tree" />
+            <marker date="1513273013546" expanded="true" signature="675:698" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="675:714" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="734:759" ph="SELECT Paren... node" />
           </folding>
         </state>
       </provider>
@@ -303,8 +310,12 @@
         <state relative-caret-position="20">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <marker date="1513270983512" expanded="true" signature="384:461" ph="INSERT INTO tree... " />
-            <marker date="1513270983512" expanded="true" signature="719:802" ph="INSERT INTO node... " />
+            <marker date="1513273769522" expanded="true" signature="108:185" ph="INSERT INTO tree... " />
+            <marker date="1513273769522" expanded="true" signature="195:278" ph="INSERT INTO node... " />
+            <marker date="1513273769522" expanded="true" signature="288:325" ph="SELECT Level... tree" />
+            <marker date="1513273769522" expanded="true" signature="288:326" ph="SELECT Level... tree" />
+            <marker date="1513273769522" expanded="true" signature="345:368" ph="SELECT MAX(N... node" />
+            <marker date="1513273769522" expanded="true" signature="345:389" ph="SELECT NodeI... node" />
           </folding>
         </state>
       </provider>
@@ -346,12 +357,12 @@
         <state relative-caret-position="220">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1513245592219" expanded="true" signature="573:598" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="573:614" ph="SELECT NodeN... node" />
-            <marker date="1513245592219" expanded="true" signature="634:656" ph="SELECT Level... tree" />
-            <marker date="1513245592219" expanded="true" signature="676:699" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="676:715" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="735:760" ph="SELECT Paren... node" />
+            <marker date="1513273013546" expanded="true" signature="572:597" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="572:613" ph="SELECT NodeN... node" />
+            <marker date="1513273013546" expanded="true" signature="633:655" ph="SELECT Level... tree" />
+            <marker date="1513273013546" expanded="true" signature="675:698" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="675:714" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="734:759" ph="SELECT Paren... node" />
           </folding>
         </state>
       </provider>
@@ -393,12 +404,12 @@
         <state relative-caret-position="220">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <marker date="1513245592219" expanded="true" signature="573:598" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="573:614" ph="SELECT NodeN... node" />
-            <marker date="1513245592219" expanded="true" signature="634:656" ph="SELECT Level... tree" />
-            <marker date="1513245592219" expanded="true" signature="676:699" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="676:715" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="735:760" ph="SELECT Paren... node" />
+            <marker date="1513273013546" expanded="true" signature="572:597" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="572:613" ph="SELECT NodeN... node" />
+            <marker date="1513273013546" expanded="true" signature="633:655" ph="SELECT Level... tree" />
+            <marker date="1513273013546" expanded="true" signature="675:698" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="675:714" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="734:759" ph="SELECT Paren... node" />
           </folding>
         </state>
       </provider>
@@ -440,12 +451,12 @@
         <state relative-caret-position="1300">
           <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
-            <marker date="1513245592219" expanded="true" signature="573:598" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="573:614" ph="SELECT NodeN... node" />
-            <marker date="1513245592219" expanded="true" signature="634:656" ph="SELECT Level... tree" />
-            <marker date="1513245592219" expanded="true" signature="676:699" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="676:715" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="735:760" ph="SELECT Paren... node" />
+            <marker date="1513273013546" expanded="true" signature="572:597" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="572:613" ph="SELECT NodeN... node" />
+            <marker date="1513273013546" expanded="true" signature="633:655" ph="SELECT Level... tree" />
+            <marker date="1513273013546" expanded="true" signature="675:698" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="675:714" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="734:759" ph="SELECT Paren... node" />
           </folding>
         </state>
       </provider>
@@ -487,12 +498,12 @@
         <state relative-caret-position="1100">
           <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
           <folding>
-            <marker date="1513245592219" expanded="true" signature="573:598" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="573:614" ph="SELECT NodeN... node" />
-            <marker date="1513245592219" expanded="true" signature="634:656" ph="SELECT Level... tree" />
-            <marker date="1513245592219" expanded="true" signature="676:699" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="676:715" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="735:760" ph="SELECT Paren... node" />
+            <marker date="1513273013546" expanded="true" signature="572:597" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="572:613" ph="SELECT NodeN... node" />
+            <marker date="1513273013546" expanded="true" signature="633:655" ph="SELECT Level... tree" />
+            <marker date="1513273013546" expanded="true" signature="675:698" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="675:714" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="734:759" ph="SELECT Paren... node" />
           </folding>
         </state>
       </provider>
@@ -518,12 +529,12 @@
         <state relative-caret-position="1960">
           <caret line="98" column="64" lean-forward="false" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="69" />
           <folding>
-            <marker date="1513245592219" expanded="true" signature="573:598" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="573:614" ph="SELECT NodeN... node" />
-            <marker date="1513245592219" expanded="true" signature="634:656" ph="SELECT Level... tree" />
-            <marker date="1513245592219" expanded="true" signature="676:699" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="676:715" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="735:760" ph="SELECT Paren... node" />
+            <marker date="1513273013546" expanded="true" signature="572:597" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="572:613" ph="SELECT NodeN... node" />
+            <marker date="1513273013546" expanded="true" signature="633:655" ph="SELECT Level... tree" />
+            <marker date="1513273013546" expanded="true" signature="675:698" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="675:714" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="734:759" ph="SELECT Paren... node" />
           </folding>
         </state>
       </provider>
@@ -549,12 +560,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1513245592219" expanded="true" signature="573:598" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="573:614" ph="SELECT NodeN... node" />
-            <marker date="1513245592219" expanded="true" signature="634:656" ph="SELECT Level... tree" />
-            <marker date="1513245592219" expanded="true" signature="676:699" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="676:715" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="735:760" ph="SELECT Paren... node" />
+            <marker date="1513273013546" expanded="true" signature="572:597" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="572:613" ph="SELECT NodeN... node" />
+            <marker date="1513273013546" expanded="true" signature="633:655" ph="SELECT Level... tree" />
+            <marker date="1513273013546" expanded="true" signature="675:698" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="675:714" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="734:759" ph="SELECT Paren... node" />
           </folding>
         </state>
       </provider>
@@ -584,26 +595,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
+    <entry file="file://$PROJECT_DIR$/insert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="26" />
+        <state relative-caret-position="180">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1513245592219" expanded="true" signature="573:598" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="573:614" ph="SELECT NodeN... node" />
-            <marker date="1513245592219" expanded="true" signature="634:656" ph="SELECT Level... tree" />
-            <marker date="1513245592219" expanded="true" signature="676:699" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="676:715" ph="SELECT NodeI... node" />
-            <marker date="1513245592219" expanded="true" signature="735:760" ph="SELECT Paren... node" />
+            <marker date="1513273769522" expanded="true" signature="108:185" ph="INSERT INTO tree... " />
+            <marker date="1513273769522" expanded="true" signature="195:278" ph="INSERT INTO node... " />
+            <marker date="1513273769522" expanded="true" signature="288:325" ph="SELECT Level... tree" />
+            <marker date="1513273769522" expanded="true" signature="288:326" ph="SELECT Level... tree" />
+            <marker date="1513273769522" expanded="true" signature="345:368" ph="SELECT MAX(N... node" />
+            <marker date="1513273769522" expanded="true" signature="345:389" ph="SELECT NodeI... node" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,14 +618,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insert.php">
+    <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="155">
+          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding>
-            <marker date="1513270983512" expanded="true" signature="384:461" ph="INSERT INTO tree... " />
-            <marker date="1513270983512" expanded="true" signature="719:802" ph="INSERT INTO node... " />
+            <marker date="1513273013546" expanded="true" signature="572:597" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="572:613" ph="SELECT NodeN... node" />
+            <marker date="1513273013546" expanded="true" signature="633:655" ph="SELECT Level... tree" />
+            <marker date="1513273013546" expanded="true" signature="675:698" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="675:714" ph="SELECT NodeI... node" />
+            <marker date="1513273013546" expanded="true" signature="734:759" ph="SELECT Paren... node" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

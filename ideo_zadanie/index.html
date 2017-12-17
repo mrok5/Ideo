@@ -25,7 +25,7 @@
 </ul>
 
 <div id="mainform">
-    <h2>Submit Form Using AJAX and jQuery</h2> <!-- Required div Starts Here -->
+    <h2>Insert</h2> <!-- Required div Starts Here -->
     <div id="form">
         <h3>Fill Your Information !</h3>
         <div>
@@ -38,33 +38,31 @@
     </div>
 </div>
 
-<script>
-    $(document).ready(function(){
-        $("#submit").click(function(){
-            var name = $("#name").val();
-            var parent_id = $("#parent_id").val();
-// Returns successful data submission message when the entered information is stored in database.
-            var dataString = 'name='+ name + '&parent_id='+ parent_id;
-            if(name==''||parent_id=='')
-            {
-                alert("Please Fill All Fields");
-            }
-            else
-            {
-// AJAX Code To Submit Form.
-                $.ajax({
-                    type: "POST",
-                    url: "insert.php",
-                    data: dataString,
-                    cache: false,
-                    success: function(){
-                        alert("success");
-                    }
-                });
-            }
-            return false;
-        });
-    });
-</script>
+<div id="editform">
+    <h2>Edit</h2> <!-- Required div Starts Here -->
+    <div id="eform">
+        <h3>Fill Your Information !</h3>
+        <div>
+            <label>Name :</label>
+            <input id="edit_name" type="text">
+            <label>NodeId :</label>
+            <input id="edit_node_id" type="number">
+            <input id="edit" type="button" value="Submit">
+        </div>
+    </div>
+</div>
+
+<div id="deleteform">
+    <h2>Delete</h2> <!-- Required div Starts Here -->
+    <div id="dform">
+        <h3>Fill Your Information !</h3>
+        <div>
+            <label>NodeId :</label>
+            <input id="node_id" type="number">
+            <input id="dsubmit" type="button" value="Submit">
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

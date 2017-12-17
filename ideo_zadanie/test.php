@@ -10,24 +10,21 @@ function select($conn, $query)
 }
 
 
-function editTree()
+function editData($conn,$node_id,$nodeName)
 {
+    $stmt = $conn->prepare("UPDATE node SET NodeName=? WHERE NodeId=?");
+    $stmt->bindValue(1, $nodeName, PDO::PARAM_STR);
+    $stmt->bindValue(2, $node_id, PDO::PARAM_INT);
+    $stmt->execute();
 }
 
-function editNode()
+
+function deleteData($conn,$node_id,$table)
 {
+    $stmt = $conn->prepare("DELETE FROM $table WHERE NodeId=$node_id");
+    $stmt->execute();
 }
 
-function deleteTree()
-{
-}
-
-;
-function deleteNode()
-{
-}
-
-;
 
 
 function selectData($conn, $query, $x)
